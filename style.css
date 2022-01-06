@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
+}
+h1 {
+  font-size: 40px;
+}
+.orange-color {
+  color: orange;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 10px;
+}
+.half-widht {
+  width: 50%;
+  padding: 5%;
+}
+.half-widht img {
+  width: 100%;
+}
+.link-button {
+  text-decoration: none;
+  background-color: orangered;
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+.border-flex {
+  display: flex;
+}
+.border {
+  border-left: 5px solid orangered;
+  height: 120px;
+  padding-right: 10px;
+}
+.title p{
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    line-height: 1.5;
+
+}
+.title h3{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.mission-area h1 {
+  text-align: center;
+  width: 90px;
+  width: 100%;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.mission-area span {
+  color: orangered;
+}
+.mission-conainer-box {
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-around;
+}
+.mission-card1 {
+  width: 30%;
+  padding: 20px;
+  height: 500px;
+  width: 500px;
+  background-color: skyblue ;
+  border: 2 px transparent;
+  border-radius: 20px;
+  margin: 20px;
+}
+.mission-card2 {
+  width: 30%;
+  padding: 20px;
+  height: 500px;
+  width: 500px;
+  background-color: rgba(255, 192, 203, 0.979);
+  border: 2 px transparent;
+  border-radius: 20px;
+  margin: 20px;
+}
+.mission-card3 {
+  width: 30%;
+  padding: 20px;
+  height: 500px;
+  width: 500px;
+  background-color: rgba(238, 238, 113, 0.815);
+  border: 2px transparent;
+  border-radius: 20px;
+  margin: 20px;
+}
+.mission-card1 img{
+    height: 200px;
+}
+.mission-card2 img{
+    height: 200px;
+}
+.mission-card3 img{
+    height: 200px;
+}
+
+.dev-box{
+    display: flex;
+    margin: 0 10%;
+    margin-top: 140px;
+}
+.dev-left{
+    width: 40%;
+    padding-right: 80px;
+
+}
+.dev-left img{
+    width: 100%;
+}
+.dev-right{
+    width: 60%;
+    margin-top: 80px;
+}
+.dev-right h1{
+    font-size: 50px;
+}
+.dev-right p{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.community-box{
+    display: flex;
+    padding: 0 10%;
+    margin-top: 200px;
+}
+.community-left{
+    margin-top: 100px;
+    width: 60%;
+}
+.community-left h1{
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+.community-left p{
+    font-size: 25px;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.community-right{
+    width: 40%;
+}
+.community-right img{
+    width: 100%;
+}
+.extra{
+    margin-top: 140px;
+}
+
+.extra-title h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+
+
+}
+.extra-title span{
+    color:orange
+}
+.extra-box{
+    display: flex;
+    padding: 0 10%;
+    margin-top: 50px;
+}
+.extra-left{
+    width: 40%;
+}
+.extra-left img{
+    width: 80%;
+    height: 700px;
+}
+
+.extra-right{
+    width: 60%;
+    margin-top: 140px;
+}
+.extra-right h1{
+    font-size: 60px;
+}
+.extra-right span{
+    color: orange;
+}
+.extra-right p{
+    margin-top: 25px;
+    margin-bottom: 50px;
+
+}
+.footer{
+    width: 100%;
+    height: 160px;
+    background-color: black;
+    padding-top: 40px;
+    margin-top: 120px;
+}
+.footer h1{
+  
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    color: white;
+}
+.footer span{
+    color: orangered;
+}
+.footer p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+
+}
